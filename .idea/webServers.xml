@@ -2,11 +2,17 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
+<<<<<<< HEAD
       <webServer id="88dd0959-659f-4955-a94d-d6494fdbac39" name="虚拟机" url="http://192.168.0.102">
         <fileTransfer host="192.168.0.102" port="22" rootFolder="/home/wwwroot/default" accessType="SFTP" password="df9bdf9bdf9bdf9bdf9bdf9b" username="root">
+=======
+      <webServer id="88dd0959-659f-4955-a94d-d6494fdbac39" name="虚拟机" url="http://192.168.0.38">
+        <fileTransfer host="192.168.0.38" port="22" rootFolder="/home/wwwroot/default/workerman" accessType="SFTP">
+>>>>>>> 506a038fbe56e631ce8655a6043237458587c759
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
+          <option name="port" value="22" />
         </fileTransfer>
       </webServer>
     </option>
